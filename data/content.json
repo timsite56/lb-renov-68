@@ -1,0 +1,206 @@
+{
+  "nom_entreprise": "LB Renov",
+  "type_artisan": "Couvreur",
+  "ville": "Altkirch",
+  "telephone_affiche": "06 99 78 98 62",
+  "telephone_tel": "+33699789862",
+  "annee": "2026",
+  "hero": {
+    "image": "images/hero-bg.webp",
+    "titre": "Assurez la longévité et l'étanchéité de votre toiture à Altkirch avec nos experts couvreurs.",
+    "description": "Votre expert couvreur zingueur à Altkirch et ses environs."
+  },
+  "apropos": {
+    "image": "images/apropos.jpg",
+    "texte": "Chez LB Renov, nous sommes fiers de notre expertise en couverture et zinguerie, bâtie sur de nombreuses années d'expérience à Altkirch et dans tout le Haut-Rhin. Notre mission est de protéger votre patrimoine en vous offrant des solutions de toiture durables, esthétiques et parfaitement étanches. Nous privilégions l'écoute, le conseil et des matériaux de qualité adaptés à votre bâti et à notre région.\n\nQu'il s'agisse d'une rénovation complète, de la pose d'une couverture neuve ou d'un simple entretien, notre équipe d'artisans certifiés s'engage à réaliser un travail soigné, dans le respect des délais et de votre budget. Chaque chantier fait l'objet d'un devis détaillé et sans engagement, pour une transparence totale du début à la fin de votre projet.",
+    "badges": [
+      "Qualibat RGE",
+      "Artisan Couvreur Certifié",
+      "Devis gratuit"
+    ]
+  },
+  "stats": [
+    {
+      "valeur": "12",
+      "label": "Ans d'expérience"
+    },
+    {
+      "valeur": "150",
+      "label": "Projets réalisés"
+    }
+  ],
+  "services": [
+    {
+      "titre": "Rénovation et Réparation Toiture",
+      "description": "Inspection, diagnostic précis et travaux de remise à neuf pour prolonger la vie de votre toit et assurer son étanchéité.",
+      "image": "images/service1.jpg"
+    },
+    {
+      "titre": "Pose de Toiture Neuve",
+      "description": "Installation complète de toitures traditionnelles ou modernes, avec des matériaux adaptés à vos besoins et au climat local.",
+      "image": "images/service2.jpg"
+    },
+    {
+      "titre": "Entretien et Démoussage",
+      "description": "Nettoyage professionnel, traitement préventif et entretien régulier pour préserver l'intégrité et l'esthétique de votre couverture.",
+      "image": "images/service3.jpg"
+    },
+    {
+      "titre": "Peinture Intérieure",
+      "description": "Nous réalisons tous vos travaux de peinture pour murs, plafonds et boiseries. Choix de couleurs, conseils personnalisés et finitions impeccables pour un intérieur qui vous ressemble.",
+      "image": "images/service4.webp"
+    },
+    {
+      "titre": "Peinture Extérieure",
+      "description": "Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.",
+      "image": "images/service5.png"
+    },
+    {
+      "titre": "Travaux de zinguerie",
+      "description": "Installation et réparation de gouttières, chéneaux et éléments en zinc pour une évacuation optimale des eaux pluviales et une protection accrue de votre façade.",
+      "image": "images/service6.jpg"
+    },
+    {
+      "titre": "Nettoyage et ravalement façade",
+      "description": "Redonnez un coup de jeune à vos murs extérieurs. Nous nettoyons et traitons vos façades pour une protection durable et une esthétique renouvelée.",
+      "image": "images/service7.webp"
+    },
+    {
+      "titre": "Installation et remplacement de Velux",
+      "description": "Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.",
+      "image": "images/service8.png"
+    },
+    {
+      "titre": "Peinture de toiture",
+      "description": "Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.",
+      "image": "images/service9.png"
+    }
+  ],
+  "avis": {
+    "google_score": "5.0",
+    "nb_avis": "3 avis",
+    "visible": true,
+    "temoignages": [
+      {
+        "initiale": "J",
+        "nom": "Jean Pierre Fourneau",
+        "texte": "Nous avons contacté LB Renov pour ma maison secondaire à Altkirch le résultat est impeccable. Ils ont nettoyé ma toiture et l’imperméabiliser et par la suite rénovation de mes façades le résultat et à la hauteur de mes attentes. Résultats impeccable. Devis bien détaillé, nous recommandons."
+      },
+      {
+        "initiale": "P",
+        "nom": "Pablo Rodier",
+        "texte": "Très satisfait du travail réalisé par LB Renov. L'équipe est professionnelle, ponctuelle et soigneuse. La rénovation de ma toiture a été faite dans les délais annoncés et le chantier a été laissé propre. Je recommande vivement cette entreprise."
+      },
+      {
+        "initiale": "J",
+        "nom": "Jean Christophe Larange",
+        "texte": "Entreprise très professionnelle... ponctualité sérieux et efficacité.... explication claire et précise des travaux et très bon conseil....nous recommandons vivement cette entreprise"
+      }
+    ]
+  },
+  "galerie": [
+    {
+      "image": "images/gallery1.jpg",
+      "legende": "Réalisation 1"
+    },
+    {
+      "image": "images/gallery2.jpg",
+      "legende": "Réalisation 2"
+    },
+    {
+      "image": "images/gallery3.jpg",
+      "legende": "Réalisation 3"
+    },
+    {
+      "image": "images/gallery4.jpg",
+      "legende": "Réalisation 4"
+    },
+    {
+      "image": "images/gallery5.jpg",
+      "legende": "Réalisation 5"
+    },
+    {
+      "image": "images/gallery6.jpg",
+      "legende": "Réalisation 6"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quand faut-il envisager une rénovation de toiture ?",
+      "reponse": "Une rénovation est conseillée si vous observez des fuites, des tuiles cassées, une dégradation avancée de l'isolant ou si votre toiture a plus de 30 ans. Nous réalisons un diagnostic complet pour vous conseiller au mieux."
+    },
+    {
+      "question": "Quels matériaux de couverture proposez-vous ?",
+      "reponse": "Nous travaillons avec divers matériaux comme les tuiles terre cuite, l'ardoise naturelle, le zinc ou le bac acier. Nous vous aidons à choisir la solution la plus adaptée à l'architecture de votre maison et à votre budget."
+    },
+    {
+      "question": "Quelle est l'importance de l'entretien régulier de la toiture ?",
+      "reponse": "L'entretien prévient les dommages coûteux, assure l'étanchéité et prolonge significativement la durée de vie de votre toiture. Un nettoyage régulier et un démoussage protègent votre investissement sur le long terme."
+    },
+    {
+      "question": "Proposez-vous des devis gratuits ?",
+      "reponse": "Oui, nous nous déplaçons à Altkirch et ses environs pour évaluer vos besoins. Nous vous fournirons un devis détaillé et sans engagement, expliquant les travaux nécessaires et les matériaux préconisés."
+    }
+  ],
+  "horaires": {
+    "visible": true,
+    "adresse": "16 Rue de Ferrette, 68130 Altkirch",
+    "lat": 47.6236,
+    "lng": 7.2381,
+    "jours": [
+      {
+        "nom": "Lundi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Mardi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Mercredi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Jeudi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Vendredi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Samedi",
+        "matin_debut": "09:00",
+        "matin_fin": "12:00",
+        "am_debut": "14:00",
+        "am_fin": "18:00"
+      },
+      {
+        "nom": "Dimanche",
+        "ferme": true
+      }
+    ]
+  },
+  "contact_description": "Votre expert couvreur zingueur à Altkirch et ses environs.",
+  "footer_description": "LB Renov, couvreur zingueur à Altkirch et dans le Haut-Rhin. Rénovation de toiture, pose de couverture neuve, entretien et démoussage.",
+  "design": {
+    "palette": "noir",
+    "nav_style": "transparent",
+    "stats_style": "default"
+  }
+}
