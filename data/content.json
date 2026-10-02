@@ -53,7 +53,7 @@
     {
       "titre": "Peinture Extérieure",
       "description": "Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.",
-      "image": "images/service5.png"
+      "image": "images/service5.webp"
     },
     {
       "titre": "Travaux de zinguerie",
@@ -68,12 +68,12 @@
     {
       "titre": "Installation et remplacement de Velux",
       "description": "Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.",
-      "image": "images/service8.png"
+      "image": "images/service8.webp"
     },
     {
       "titre": "Peinture de toiture",
       "description": "Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.",
-      "image": "images/service9.png"
+      "image": "images/service9.webp"
     }
   ],
   "avis": {

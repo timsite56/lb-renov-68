@@ -103,7 +103,7 @@
   }
   </script>
   <!-- SEO-BLOCK-END -->
-  <link rel="preload" as="image" href="images/hero-bg.webp" />
+  <link rel="preload" as="image" href="images/hero-bg.webp" fetchpriority="high" />
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -788,6 +788,13 @@
       .whatsapp-block { flex-direction: column; align-items: flex-start; }
       .whatsapp-btn { width: 100%; justify-content: center; }
     }
+  
+    .footer-zones { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem; margin-bottom: 2rem; }
+    .footer-zones-label { display: block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 0.9rem; }
+    .footer-zones-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.35rem 0.4rem; }
+    .footer-zone-tag { font-size: 0.74rem; color: rgba(255,255,255,0.6); padding: 0.3rem 0.6rem; border: 1px solid rgba(255,255,255,0.12); border-radius: 6px; text-align: center; text-decoration: none; }
+    a.footer-zone-tag:hover { color: #fff; border-color: rgba(255,255,255,0.3); }
+    @media (max-width: 640px) { .footer-zones-grid { grid-template-columns: repeat(2, 1fr); } }
   </style>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -820,7 +827,7 @@
 </nav>
 
 <!-- HERO -->
-<section id="hero">
+<section id="hero" style="background-image:url('images/hero-bg.webp')">
   <div class="hero-inner">
     <span class="hero-eyebrow fade-up" style="--delay:.1s">
       <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--primary);flex-shrink:0"></span>
@@ -862,7 +869,7 @@
       </div>
     </div>
     <div class="about-photo">
-      <img id="aboutImg" src="" alt="" loading="lazy" />
+      <img id="aboutImg" src="images/apropos.jpg" alt="LB Renov — couvreur à Altkirch" loading="lazy" />
     </div>
   </div>
 </section>
@@ -870,10 +877,10 @@
 <!-- STATS -->
 <section id="stats">
   <div class="stats-inner" id="statsInner"><div class="stat-block">
-        <div class="stat-val" data-target="12" data-prefix="">0</div>
+        <div class="stat-val" data-target="12" data-prefix="">12</div>
         <div class="stat-lbl">Ans d'expérience</div>
       </div><div class="stats-divider"></div><div class="stat-block">
-        <div class="stat-val" data-target="150" data-prefix="+">0</div>
+        <div class="stat-val" data-target="150" data-prefix="+">+150</div>
         <div class="stat-lbl">Projets réalisés</div>
       </div></div>
 </section>
@@ -912,7 +919,7 @@
           <p>Nous réalisons tous vos travaux de peinture pour murs, plafonds et boiseries. Choix de couleurs, conseils personnalisés et finitions impeccables pour un intérieur qui vous ressemble.</p>
         </div>
       </div><div class="service-card">
-        <img src="images/service5.png" alt="Peinture Extérieure" loading="lazy">
+        <img src="images/service5.webp" alt="Peinture Extérieure" loading="lazy">
         <div class="service-body">
           <h3>Peinture Extérieure</h3>
           <p>Protection et embellissement de vos façades, boiseries et ferronneries. Des produits résistants aux intempéries pour une durabilité et un esthétisme préservés.</p>
@@ -930,13 +937,13 @@
           <p>Redonnez un coup de jeune à vos murs extérieurs. Nous nettoyons et traitons vos façades pour une protection durable et une esthétique renouvelée.</p>
         </div>
       </div><div class="service-card">
-        <img src="images/service8.png" alt="Installation et remplacement de Velux" loading="lazy">
+        <img src="images/service8.webp" alt="Installation et remplacement de Velux" loading="lazy">
         <div class="service-body">
           <h3>Installation et remplacement de Velux</h3>
           <p>Pose et remplacement de fenêtres de toit Velux pour apporter plus de lumière et améliorer votre confort.</p>
         </div>
       </div><div class="service-card">
-        <img src="images/service9.png" alt="Peinture de toiture" loading="lazy">
+        <img src="images/service9.webp" alt="Peinture de toiture" loading="lazy">
         <div class="service-body">
           <h3>Peinture de toiture</h3>
           <p>Redonnez de l'éclat à votre toiture grâce à une peinture professionnelle résistante aux intempéries et aux UV.</p>
@@ -1233,6 +1240,7 @@
       </a>
     </div>
   </div>
+  <div class="footer-zones cp-secteurs"><span class="footer-zones-label">Nos secteurs</span><div class="footer-zones-grid"><a class="footer-zone-tag" href="couvreur-mulhouse.html">Couvreur à Mulhouse</a><a class="footer-zone-tag" href="couvreur-saint-louis.html">Couvreur à Saint-Louis</a><a class="footer-zone-tag" href="couvreur-rixheim.html">Couvreur à Rixheim</a><a class="footer-zone-tag" href="couvreur-dannemarie.html">Couvreur à Dannemarie</a><a class="footer-zone-tag" href="couvreur-hirsingue.html">Couvreur à Hirsingue</a><a class="footer-zone-tag" href="couvreur-brunstatt-didenheim.html">Couvreur à Brunstatt-Didenheim</a></div></div>
   <div class="footer-bottom">© <span id="footerAnnee">2026</span> <span id="footerNom">LB Renov</span></div>
 </footer>
 
@@ -1363,7 +1371,7 @@
 
   /* ── Apply content to DOM ── */
   function applyContent(data) {
-    document.title = `${data.nom_entreprise} – ${data.type_artisan} à ${data.ville}`;
+    /* titre statique conservé pour le SEO */
 
     document.querySelectorAll('.phone-link').forEach(el => {
       el.href = `tel:${data.telephone_tel}`;
